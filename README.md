@@ -6,7 +6,7 @@ Tortoise v Hare, a Monte-Carlo Board Game Design
 
 ## Idea
 
-I was interested in the idea of creating a board game with a fundamental imbalance and wondered whether I could use a Monte Carlo simulation to tweak it until it was balanced. I chose the idea of the Tortoise vs the Hare, a simple "Game of the Goose" race game concept where players race a counter on a path of squares, and the initial assumption that the tortoise would only roll one die while the hare would roll two.
+I was interested in the idea of creating a board game with a fundamental imbalance and wondered whether I could use a [Monte Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) to tweak it until it was balanced. I chose the idea of the Tortoise vs the Hare, a simple ["Game of the Goose"](https://en.wikipedia.org/wiki/Game_of_the_Goose) race game concept where players race a counter on a path of squares, and the initial assumption that the tortoise would only roll one die while the hare would roll two.
 
 ## Tweaks
 
@@ -91,3 +91,7 @@ And a board with 79 squares (I was looking for a game with around 10 rolls for e
       'zz',    'empty', 'empty', 'mt',    'empty', 'empty',
       'empty'
     ]
+
+## Presentation
+
+I've included the slides for a 5-minute presentation I gave about it.
