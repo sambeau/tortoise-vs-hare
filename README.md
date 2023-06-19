@@ -6,7 +6,7 @@ Tortoise v Hare, a Monte-Carlo Board Game Design
 
 ## Idea
 
-I was interested in the idea of creating a board game with a fundamental imbalance and wondered whether I could use a [Monte Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) to tweak it until it was balanced. I chose the idea of the Tortoise vs the Hare, a simple ["Game of the Goose"](https://en.wikipedia.org/wiki/Game_of_the_Goose) race game concept where players race counters (one tortoise, one hare) on a path of squares, and the initial assumption that the tortoise would only roll one die while the hare would roll two.
+I was interested in the idea of creating a board game with a fundamental imbalance and wondered whether I could use a [Monte Carlo simulation](https://en.wikipedia.org/wiki/Monte_Carlo_method) to tweak it until it was balanced. I chose the idea of the Tortoise vs the Hare, a simple ["Game of the Goose"](https://en.wikipedia.org/wiki/Game_of_the_Goose) race game concept where players race counters (one tortoise, one hare) on a path of squares, and the initial assumption that the tortoise would only roll one die while the hare would roll two. I also wanted the game mechanics to be simple enough for kids to play by themselves.
 
 ## Tweaks
 
@@ -53,6 +53,8 @@ In the end I ended up with the following special squares:
 
 I ended up with a board with 79 squares. I was looking for a game with around 10-12 rolls for each player and I wanted a typical game to include at least one sleep for the hare and one jet run for the tortoise. The 79-square board worked out the most balanced in all areas.
 
+I also ended up with 3 sleep squares for the hare and two crash squares for the tortoise.
+
 ## Results
 
 | Scenario      |       n |   % |
@@ -61,7 +63,9 @@ I ended up with a board with 79 squares. I was looking for a game with around 10
 | tortoise wins | 459,314 | 45% |
 | draws         |  79,151 |  7% |
 
-A tiny edge for the hare, but still way less than the possibility of a draw. Close enough for me!
+A tiny edge for the hare but still way less than the possibility of a draw. Close enough for me!
+
+However, being that the board has more sleep squares than crash squares I suspect most canny players will opt to play the tortoise assuming it has an edge.
 
     spaces: 79 fly-speed: 2
     sims: 1000000
@@ -97,3 +101,9 @@ A tiny edge for the hare, but still way less than the possibility of a draw. Clo
 ## Presentation
 
 I've included the slides for a 5-minute presentation I gave about it.
+
+## Thoughts
+
+I'd love to have automated the trail-and-error process of deciding the constants chosen for each run, maybe with another layer of Monte Carlo randomly tweaking them or even a genetic algorithm.
+
+I'd also like to try this with a more complicated adult board game.
