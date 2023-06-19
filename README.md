@@ -40,7 +40,7 @@ I soon had the following balanced rules:
 
 ## The board
 
-Finally I simulated a board with various special squares: miss a turn, roll again, etc. I placed the squares in random places and ran the tests millions of times. I discovered that just as important as the special squares and their placement was the overall length o the board. Adding or removing a square could make a crucial difference.
+Finally I simulated a board with various special squares: miss a turn, roll again, etc. I placed the squares in random places and ran the tests millions of times. I discovered that just as important as the special squares and their placement was the overall length of the board. Adding or removing a square could make a crucial difference.
 
 In the end I ended up with the following special squares:
 
