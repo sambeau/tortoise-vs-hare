@@ -51,7 +51,7 @@ In the end I ended up with the following special squares:
 -   Tortoise crashes if flying (CR)
 -   Hare falls asleep, presumably due to a field of carrots (zz)
 
-Settled on a board with 79 squares. I was looking for a game with around 10-12 rolls for each player and I wanted a typical game to include at least one sleep for the hare and one jet run for the tortoise. The 79-square board worked out the most balanced in all areas.
+I ended up with a board with 79 squares. I was looking for a game with around 10-12 rolls for each player and I wanted a typical game to include at least one sleep for the hare and one jet run for the tortoise. The 79-square board worked out the most balanced in all areas.
 
 ## Results
 
