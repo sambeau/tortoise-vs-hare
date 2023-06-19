@@ -61,6 +61,8 @@ Settled on a board with 79 squares. I was looking for a game with around 10-12 r
 | tortoise wins | 459,314 | 45% |
 | draws         |  79,151 |  7% |
 
+A tiny edge for the hare, but still way less than the possibility of a draw. Close enough for me!
+
     spaces: 79 fly-speed: 2
     sims: 1000000
     t: 459314 h: 461535 d: 79151
