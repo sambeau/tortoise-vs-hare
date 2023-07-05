@@ -69,19 +69,19 @@ A minuscule edge for the hare but still orders less than the possibility of a dr
 
 It will be interesting to see which is more fun to play, the tortoise or the hare. I suspect younger players will look at the dice and and go for the hare, while older players will look at the number of sleeps vs crash squares on the board and go for the tortoise. But as we know, the playing field is *very* even.
 
-Next we look for a board:
-
-The board looks like great fun.That final back three is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out. I also really like that the two final squares are one crash, one sleep. I don’t think I could have designed a better one if the only outcome was fun.
-
-This was, of course, one random run. If you try it, you will get different results each time. 
-
-But, I couldn’t be happier with this run.
+Next we look for a balanced board:
 
 | Result | n | % |
 |:--|--:|--:|
 | hare wins | 42,900,614 | 46.6% |
 | tortoise wins | 42,871,281 | 46.6% |
 | draws | 6,296,895 | 6.8% |
+
+The final board I found looks like great fun. That back three just before the finish line is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out. I also really like that the two final squares are one crash, one sleep. I don’t think I could have designed a better one if the only outcome was fun.
+
+This was, of course, one random run. If you try it, you will get different results each time. 
+
+But, I couldn’t be happier with this run.
 
 	spaces: 79 fly-speed: 2
 	sims: 1000000
