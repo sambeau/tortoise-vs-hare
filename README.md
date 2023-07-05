@@ -77,7 +77,7 @@ Next we look for a balanced board:
 | tortoise wins | 42,871,281 | 46.6% |
 | draws | 6,296,895 | 6.8% |
 
-The final board I found looks like great fun. That back three just before the finish line is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out. I also really like that the two final squares are one crash, one sleep. I don’t think I could have designed a better one if the only outcome was fun.
+The final board I found looks like great fun. That back three just before the finish line is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out.  I like the way that the sleeps and crashes come near the middle game. The clump of back three, roll again, miss a turn would be a fun hurdle — hitting that middle square would be fun. Similarly, if the rabbit hits the sleep next to the two forward threes, he’s never going to hit one. No doubt the tortoise will go plodding past. I also really like that the two final squares are one crash, one sleep — just enough danger right at the end. I don’t think I could have designed a better one if the only outcome was fun.
 
 This was, of course, one random run. If you try it, you will get different results each time. 
 
@@ -123,3 +123,7 @@ I've included the slides for a 5-minute presentation I gave about it.
 I'd love to have automated the trail-and-error process of deciding the constants chosen for each run, maybe with another layer of Monte Carlo randomly tweaking them or even a genetic algorithm.
 
 I'd also like to try this with a more complicated adult board game.
+
+Sadly, I still haven’t made a physical board and play-tested it for real. I really, really should. If anyone out there does, please let me know.
+
+Finally, if any games company out there fancies producing it for real, get in touch. I think it would be a great little game for the under 10s market. With two cute counters and a pretty board I’d like to think it could be a hit. But, frankly, I what do I know, I guess there’s way more to a successful game than a set of balanced rules.
