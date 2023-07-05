@@ -12,7 +12,7 @@ I was interested in the idea of creating a board game with a fundamental imbalan
 
 My first thought was that the Hare would have to take naps. If he napped every time he rolled a double and then woke up again every time he rolled another, would that be enough to balance the game? My second thought was, could the tortoise have a jet-pack, like he does in the Bugs Bunny cartoons? How would that work?
 
-I simulated the basic game mechanics with a simple javascript program and ran it 1,000,000 times counting the number of times the hare won, the number of times the tortoise won, and the number of draws where both animals arrived on the finish line on the same turn (e.g. the tenth roll of both players).
+I simulated the basic game mechanics with a simple javascript program and ran it 1,000,000 times counting the number of times the hare won, the number of times the tortoise won, and the number of draws where both animals arrived on the finish line on the same turn (e.g., the tenth roll of both players).
 
 Then I added naps for the hare, then a jetpack for the tortoise. Then I had to make the jet-pack very unreliable.
 
@@ -59,7 +59,7 @@ I also ended up with 3 sleep squares for the hare and two crash squares for the 
 
 First we test the rules:
 
- | Result | n | % |
+| Result | n | % |
 |:--|--:|--:|
 | hare wins | 460,511 | 46% |
 | tortoise wins | 460,014 | 46% |
@@ -77,7 +77,7 @@ This was, of course, one random run. If you try it, you will get different resul
 
 But, I couldn’t be happier with this run.
 
- | Result | n | % |
+| Result | n | % |
 |:--|--:|--:|
 | hare wins | 42,900,614 | 46.6% |
 | tortoise wins | 42,871,281 | 46.6% |
