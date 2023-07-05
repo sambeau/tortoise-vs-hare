@@ -57,46 +57,62 @@ I also ended up with 3 sleep squares for the hare and two crash squares for the 
 
 ## Results
 
-| Scenario      |       n |   % |
-| :------------ | ------: | --: |
-| hare wins     | 461,535 | 46% |
-| tortoise wins | 459,314 | 45% |
-| draws         |  79,151 |  7% |
+First we test the rules:
 
-A tiny edge for the hare but still way less than the possibility of a draw. Close enough for me!
+ | Result | n | % |
+|:--|--:|--:|
+| hare wins | 460,511 | 46% |
+| tortoise wins | 460,014 | 46% |
+| draws | 79,475 | 7% |
 
-However, being that the board has more sleep squares than crash squares I suspect most canny players will opt to play the tortoise assuming it has an edge.
+A minuscule edge for the hare but still orders less than the possibility of a draw. Close enough for me!
 
-    spaces: 79 fly-speed: 2
-    sims: 1000000
-    t: 459314 h: 461535 d: 79151
-    hare wins: 46%
-    tortoise wins: 45%
-    draws: 7%
-    ave turns: 12.54
-    ave sleeps: 1.64
-    ave flights: 1.48
+It will be interesting to see which is more fun to play, the tortoise or the hare. I suspect younger players will look at the dice and and go for the hare, while older players will look at the number of sleeps vs crash squares on the board and go for the tortoise. But as we know, the playing field is *very* even.
 
+Next we look for a board:
 
-    79150
-    6275215
-    { d: 6275215, t: 42685259, h: 42740956 }
-    [
-      'ra',    'empty', 'empty', 'empty', 'empty', 'f3',
-      'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
-      'empty', 'empty', 'b3',    'empty', 'empty', 'empty',
-      'empty', 'empty', 'empty', 'f3',    'zz',    'empty',
-      'ra',    'empty', 'b3',    'empty', 'empty', 'empty',
-      'f3',    'cr',    'empty', 'empty', 'empty', 'empty',
-      'empty', 'mt',    'empty', 'empty', 'empty', 'empty',
-      'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
-      'empty', 'empty', 'empty', 'empty', 'mt',    'empty',
-      'ra',    'empty', 'empty', 'empty', 'cr',    'b3',
-      'f3',    'b3',    'b3',    'empty', 'empty', 'f3',
-      'empty', 'empty', 'empty', 'zz',    'empty', 'empty',
-      'zz',    'empty', 'empty', 'mt',    'empty', 'empty',
-      'empty'
-    ]
+The board looks like great fun.That final back three is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out. I also really like that the two final squares are one crash, one sleep. I don’t think I could have designed a better one if the only outcome was fun.
+
+This was, of course, one random run. If you try it, you will get different results each time. 
+
+But, I couldn’t be happier with this run.
+
+ | Result | n | % |
+|:--|--:|--:|
+| hare wins | 42,900,614 | 46.6% |
+| tortoise wins | 42,871,281 | 46.6% |
+| draws | 6,296,895 | 6.8% |
+
+	spaces: 79 fly-speed: 2
+	sims: 1000000
+	t: 460014 h: 460511 d: 79475
+	hare wins: 46%
+	tortoise wins: 46%
+	draws: 7%
+	ave turns: 12.54
+	ave sleeps: 1.64
+	ave flights: 1.49
+	
+	
+	 79474
+	6296895
+	{ d: 6296895, t: 42871281, h: 42900614 }
+	[
+	  'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
+	  'empty', 'empty', 'empty', 'empty', 'b3',    'b3',
+	  'empty', 'empty', 'f3',    'empty', 'ra',    'empty',
+	  'empty', 'empty', 'empty', 'empty', 'b3',    'ra',
+	  'mt',    'empty', 'empty', 'empty', 'empty', 'mt',
+	  'empty', 'empty', 'empty', 'zz',    'empty', 'empty',
+	  'empty', 'empty', 'empty', 'ra',    'empty', 'empty',
+	  'cr',    'empty', 'empty', 'empty', 'mt',    'empty',
+	  'empty', 'b3',    'empty', 'f3',    'empty', 'empty',
+	  'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
+	  'empty', 'zz',    'f3',    'f3',    'empty', 'empty',
+	  'empty', 'empty', 'f3',    'empty', 'empty', 'empty',
+	  'empty', 'zz',    'empty', 'cr',    'empty', 'empty',
+	  'b3'
+	]
 
 ## Presentation
 
