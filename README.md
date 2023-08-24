@@ -59,60 +59,66 @@ I also ended up with 3 sleep squares for the hare and two crash squares for the 
 
 First we test the rules:
 
-| Result | n | % |
-|:--|--:|--:|
-| hare wins | 460,511 | 46% |
+| Result        |       n |   % |
+| :------------ | ------: | --: |
+| hare wins     | 460,511 | 46% |
 | tortoise wins | 460,014 | 46% |
-| draws | 79,475 | 7% |
+| draws         |  79,475 |  7% |
 
 A minuscule edge for the hare but still orders less than the possibility of a draw. Close enough for me!
 
-It will be interesting to see which is more fun to play, the tortoise or the hare. I suspect younger players will look at the dice and and go for the hare, while older players will look at the number of sleeps vs crash squares on the board and go for the tortoise. But as we know, the playing field is *very* even.
+It will be interesting to see which is more fun to play, the tortoise or the hare. I suspect younger players will look at the dice and and go for the hare, while older players will look at the number of sleeps vs crash squares on the board and go for the tortoise. But as we know, the playing field is _very_ even.
 
 Next we look for a balanced board:
 
-| Result | n | % |
-|:--|--:|--:|
-| hare wins | 42,900,614 | 46.6% |
+| Result        |          n |     % |
+| :------------ | ---------: | ----: |
+| hare wins     | 42,900,614 | 46.6% |
 | tortoise wins | 42,871,281 | 46.6% |
-| draws | 6,296,895 | 6.8% |
+| draws         |  6,296,895 |  6.8% |
 
-The final board I found looks like great fun. That back three just before the finish line is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out.  I like the way that the sleeps and crashes come near the middle game. The clump of back three, roll again, miss a turn would be a fun hurdle — hitting that middle square would be fun. Similarly, if the rabbit hits the sleep next to the two forward threes, he’s never going to hit one. No doubt the tortoise will go plodding past. I also really like that the two final squares are one crash, one sleep — just enough danger right at the end. I don’t think I could have designed a better one if the only outcome was fun.
+The final board I found looks like great fun. That back three just before the finish line is brutal and hilarious. I like the clear run at the start. Those two back threes straight after seem brutal, but I guess they could be made into something fun on the board — hills, brambles or maybe a swamp. Plus, the clump of forward threes near the beginning of the end balances it out. I like the way that the sleeps and crashes come near the middle game. The clump of back three, roll again, miss a turn would be a fun hurdle — hitting that middle square would be fun. Similarly, if the rabbit hits the sleep next to the two forward threes, he’s never going to hit one. No doubt the tortoise will go plodding past. I also really like that the two final squares are one crash, one sleep — just enough danger right at the end. I don’t think I could have designed a better one if the only outcome was fun.
 
-This was, of course, one random run. If you try it, you will get different results each time. 
+This was, of course, one random run. If you try it, you will get different results each time.
 
 But, I couldn’t be happier with this run.
 
-	spaces: 79 fly-speed: 2
-	sims: 1000000
-	t: 460014 h: 460511 d: 79475
-	hare wins: 46%
-	tortoise wins: 46%
-	draws: 7%
-	ave turns: 12.54
-	ave sleeps: 1.64
-	ave flights: 1.49
-	
-	
-	 79474
-	6296895
-	{ d: 6296895, t: 42871281, h: 42900614 }
-	[
-	  'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
-	  'empty', 'empty', 'empty', 'empty', 'b3',    'b3',
-	  'empty', 'empty', 'f3',    'empty', 'ra',    'empty',
-	  'empty', 'empty', 'empty', 'empty', 'b3',    'ra',
-	  'mt',    'empty', 'empty', 'empty', 'empty', 'mt',
-	  'empty', 'empty', 'empty', 'zz',    'empty', 'empty',
-	  'empty', 'empty', 'empty', 'ra',    'empty', 'empty',
-	  'cr',    'empty', 'empty', 'empty', 'mt',    'empty',
-	  'empty', 'b3',    'empty', 'f3',    'empty', 'empty',
-	  'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
-	  'empty', 'zz',    'f3',    'f3',    'empty', 'empty',
-	  'empty', 'empty', 'f3',    'empty', 'empty', 'empty',
-	  'empty', 'zz',    'empty', 'cr',    'empty', 'empty',
-	  'b3'
-	]
+    spaces: 79 fly-speed: 2
+    sims: 1000000
+    t: 460014 h: 460511 d: 79475
+    hare wins: 46%
+    tortoise wins: 46%
+    draws: 7%
+    ave turns: 12.54
+    ave sleeps: 1.64
+    ave flights: 1.49
+
+
+     79474
+    6296895
+    { d: 6296895, t: 42871281, h: 42900614 }
+    [
+      'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
+      'empty', 'empty', 'empty', 'empty', 'b3',    'b3',
+      'empty', 'empty', 'f3',    'empty', 'ra',    'empty',
+      'empty', 'empty', 'empty', 'empty', 'b3',    'ra',
+      'mt',    'empty', 'empty', 'empty', 'empty', 'mt',
+      'empty', 'empty', 'empty', 'zz',    'empty', 'empty',
+      'empty', 'empty', 'empty', 'ra',    'empty', 'empty',
+      'cr',    'empty', 'empty', 'empty', 'mt',    'empty',
+      'empty', 'b3',    'empty', 'f3',    'empty', 'empty',
+      'empty', 'empty', 'empty', 'empty', 'empty', 'empty',
+      'empty', 'zz',    'f3',    'f3',    'empty', 'empty',
+      'empty', 'empty', 'f3',    'empty', 'empty', 'empty',
+      'empty', 'zz',    'empty', 'cr',    'empty', 'empty',
+      'b3'
+    ]
+
+## Board
+
+Here's a fairly plain mockup of the final board:
+
+![Tortoise v Hare Board](TvH_Board.png)
 
 ## Presentation
 
